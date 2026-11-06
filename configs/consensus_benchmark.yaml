@@ -1,0 +1,6 @@
+run_id: consensus-benchmark-v4
+preset: benchmark
+class_count: 2
+pools_per_class: {development: 2, test: 0}
+execution: {backend: local}
+metrics: {kid_subset_size: 4, kid_subsets: 2, seed: 31415}

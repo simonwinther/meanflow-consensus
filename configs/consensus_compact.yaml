@@ -1,0 +1,6 @@
+run_id: consensus-compact-v4
+preset: compact
+class_count: 20
+pools_per_class: {development: 2, test: 10}
+execution: {backend: local}
+metrics: {kid_subset_size: 40, kid_subsets: 100, seed: 31415}

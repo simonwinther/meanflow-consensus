@@ -1,0 +1,10 @@
+run_id: consensus-smoke-v5
+preset: smoke
+class_count: 2
+pools_per_class: {development: 2, test: 0}
+candidates_per_pool: 16
+k_values: [1, 2, 5]
+generation_seeds: [2026]
+kmeans_seeds: [11]
+execution: {backend: local}
+metrics: {kid_subset_size: 4, kid_subsets: 2, seed: 31415}

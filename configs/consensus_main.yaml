@@ -1,0 +1,6 @@
+run_id: consensus-main-v4
+preset: main
+class_count: 100
+pools_per_class: {development: 5, test: 20}
+execution: {backend: local}
+metrics: {kid_subset_size: 500, kid_subsets: 100, seed: 31415}

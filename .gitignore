@@ -1,0 +1,52 @@
+# Local environments, secrets and editor state
+.env
+.env.*
+.venv*/
+venv*/
+*-env/
+*-features-env/
+.idea/
+.vscode/
+*.pem
+*.key
+
+# Python and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.coverage*
+build/
+dist/
+*.egg-info/
+
+# Downloaded data, weights and generated runs
+/work/
+/data/
+/datasets/
+/runs/
+/checkpoints/
+checkpoint_*/
+/meanflow-assets/
+/meanflow-runs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.msgpack
+*.npz
+*.npy
+*.tar
+*.tar.gz
+*.zip
+
+# Disposable runtime output
+*.log
+*.tmp
+*.partial
+.nfs*
+wandb/
+wandb_logs/
+lightning_logs/
+tensorboard/
+events.out.tfevents.*
